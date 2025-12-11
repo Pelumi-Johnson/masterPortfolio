@@ -33,14 +33,14 @@ class SoftwareSkill extends React.Component {
                         data-icon={logo.fontAwesomeClassname}
                         style={logo.style}
                         data-inline="false"
-                      ></span>
+                      />
                     )}
+
                     {!logo.fontAwesomeClassname && logo.imageSrc && (
                       <img
-                        className="skill-image"
-                        style={logo.style}
-                        src={`${process.env.PUBLIC_URL}/skills/${logo.imageSrc}`}
+                        src={require(`../../assets/images/${logo.imageSrc}`)}
                         alt={logo.skillName}
+                        className="software-skill-img"
                       />
                     )}
                   </li>

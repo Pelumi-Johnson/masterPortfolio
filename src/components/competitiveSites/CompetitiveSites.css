@@ -21,3 +21,27 @@
 .competitive-sites-inline > i:hover {
   color: #645beb;
 }
+
+.competitive-sites-main-div ul.dev-icons li:last-child img.skill-image {
+  width: 50px; /* adjust size here */
+  height: 50px;
+  object-fit: contain;
+}
+.dev-icons li:nth-child(5) img.skill-image {
+  width: 55px; /* smaller than the others */
+  height: 55px;
+  object-fit: contain;
+  transform: scale(0.85); /* gently shrink the R */
+  margin: 0 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -9 px;
+}
+.dev-icons li:nth-child(5) img.skill-image {
+  position: relative;
+  top: 1px; /* move down slightly */
+  /* if too low, change to top: -4px */
+}
+.dev-icons li:nth-child(5) img.skill-image {
+  transform: translateY(-13px); /* try -10px first */
+}

@@ -25,7 +25,7 @@ class CompetitiveSites extends React.Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {logo.iconifyClassname && (
+                    {logo.iconifyClassname && !logo.imageSrc && (
                       <span
                         className="iconify"
                         data-icon={logo.iconifyClassname}
@@ -33,11 +33,12 @@ class CompetitiveSites extends React.Component {
                         data-inline="false"
                       ></span>
                     )}
-                    {!logo.iconifyClassname && logo.imageSrc && (
+
+                    {logo.imageSrc && (
                       <img
                         className="skill-image"
                         style={logo.style}
-                        src={`${process.env.PUBLIC_URL}/skills/${logo.imageSrc}`}
+                        src={require(`../../assets/images/${logo.imageSrc}`)}
                         alt={logo.siteName}
                       />
                     )}

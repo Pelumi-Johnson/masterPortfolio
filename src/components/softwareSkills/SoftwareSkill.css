@@ -25,3 +25,9 @@
 .skill-image {
   height: 48px;
 }
+
+.software-skill-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}

@@ -105,8 +105,21 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" />
-                {experience["description"]}
+                <div
+                  style={{
+                    whiteSpace: "normal",
+                    overflow: "visible",
+                    textOverflow: "clip",
+                  }}
+                >
+                  {(experience["description"] || "")
+                    .split("\n")
+                    .map((line, i) => (
+                      <p key={i} style={{ margin: 0, textAlign: "left" }}>
+                        {line}
+                      </p>
+                    ))}
+                </div>
               </div>
             </div>
           </div>

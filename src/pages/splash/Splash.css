@@ -1,32 +1,28 @@
+/* src/containers/splash/Splash.css */
+
 .logo_wrapper {
+  position: fixed;
+  inset: 0;
   height: 100vh;
   width: 100vw;
+  display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
 }
 
 .screen {
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.screen {
-  /* background-color: #55198b; */
   overflow: hidden;
   border-radius: 100%;
   animation: grow 5.5s forwards;
 }
 
+/* Circle grows to full screen, holds, then shrinks away */
 @keyframes grow {
   0% {
     transform: scale(0);
@@ -50,6 +46,7 @@ body {
   }
 }
 
+/* Center the LoaderLogo exactly */
 #logo {
   position: absolute;
   top: 50%;

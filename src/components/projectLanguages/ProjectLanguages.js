@@ -4,11 +4,13 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 class ProjectLanguages extends Component {
   render() {
+    const logos = this.props.logos || [];
+
     return (
       <div>
         <div className="software-skills-main-div">
           <ul className="dev-icons-languages">
-            {this.props.logos.map((logo) => {
+            {logos.map((logo) => {
               return (
                 <OverlayTrigger
                   key={logo.name}
@@ -23,11 +25,21 @@ class ProjectLanguages extends Component {
                     className="software-skill-inline-languages"
                     name={logo.skillName}
                   >
-                    <span
-                      className="iconify"
-                      data-icon={logo.iconifyClass}
-                      data-inline="false"
-                    ></span>
+                    {logo.imageSrc ? (
+                      // 👉 If PNG was provided, show image
+                      <img
+                        className="project-language-img"
+                        src={require(`../../assets/images/${logo.imageSrc}`)}
+                        alt={logo.name}
+                      />
+                    ) : (
+                      // 👉 Otherwise use iconify
+                      <span
+                        className="iconify"
+                        data-icon={logo.iconifyClass}
+                        data-inline="false"
+                      ></span>
+                    )}
                   </li>
                 </OverlayTrigger>
               );

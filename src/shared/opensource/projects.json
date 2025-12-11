@@ -1,49 +1,79 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "per-scholas-security-labs",
+      "name": "Per Scholas Security Labs",
+      "createdAt": "2025-06-22T00:00:00Z",
+      "url": "https://github.com/Pelumi-Johnson/Per-Scholas-Labs/tree/main",
+      "description": "Hands-on labs from the Per Scholas Cybersecurity Analyst program, including Cisco Packet Tracer networking builds, SOC-style investigations, firewall rules, VPNs, and security troubleshooting.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Cisco Packet Tracer",
+          "iconifyClass": "simple-icons:cisco"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "Wireshark",
+          "iconifyClass": "simple-icons:wireshark"
         },
         {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "Linux",
+          "iconifyClass": "logos-linux-tux"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "umgc-academic-projects",
+      "name": "UMGC Academic Projects",
+      "createdAt": "2025-05-14T00:00:00Z",
+      "url": "https://github.com/Pelumi-Johnson/Cloud-Infrastructure-Projects/tree/main",
+      "description": "Course projects from UMGC’s B.S. in Cybersecurity Technology, including cloud migration designs, VPC architectures, secure network configurations, and risk-focused assignments.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        },
+        {
+          "name": "Cain",
+          "imageSrc": "cain.png"
+        },
+        {
+          "name": "Ubuntu",
+          "imageSrc": "Ubun.png"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "id": "raspberry-pi-security-projects",
+      "name": "Raspberry Pi Security Projects",
+      "createdAt": "2025-08-01T00:00:00Z",
+      "url": "https://github.com/Pelumi-Johnson/Pelumi-Johnson-Cybersecurity-Portfolio",
+      "description": "🔥 Security builds on Raspberry Pi such as WireGuard VPN, hardening exercises, and self-hosted services used to practice real-world secure remote access and monitoring.",
       "isFork": false,
       "languages": [
+        {
+          "name": "Raspberry Pi",
+          "imageSrc": "rasp_logo.png"
+        },
+        {
+          "name": "Linux",
+          "iconifyClass": "logos-linux-tux"
+        }
+      ]
+    },
+    {
+      "id": "cloud-security-labs",
+      "name": "Cloud Security & VPC Labs",
+      "createdAt": "2025-06-30T00:00:00Z",
+      "url": "https://github.com/Pelumi-Johnson/Cloud-Labs",
+      "description": "AWS-focused labs including VPC design, public/private subnets, security groups, IAM, EC2 hardening, and secure web server deployment as part of cloud security practice.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        },
         {
           "name": "HTML",
           "iconifyClass": "logos-html-5"
@@ -51,10 +81,6 @@
         {
           "name": "CSS",
           "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
         },
         {
           "name": "Dockerfile",
@@ -63,37 +89,11 @@
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "id": "Personal Cyber Labs",
+      "name": "Personal Cyber Labs",
+      "createdAt": "2025-11-24T00:00:00Z",
+      "url": "https://github.com/Pelumi-Johnson/Personal-Cyber-Labs-Research/tree/main",
+      "description": "Independent projects, web security testing, SOC simulations, and enumeration labs.",
       "isFork": false,
       "languages": [
         {
@@ -103,20 +103,28 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
+      "id": "osint-lab",
+      "name": "Cybersecurity Search Skills & OSINT Lab",
+      "createdAt": "2025-11-24T00:00:00Z",
       "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "description": "⚙️Open-source intelligence lab focused on safe information gathering, evaluating platforms, and documenting search strategies as a cybersecurity learner.",
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "VirusTotal",
+          "imageSrc": "virustotal_logo.png"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "shodan",
+          "imageSrc": "shodan.png"
+        },
+        {
+          "name": "CVE",
+          "imageSrc": "cve_logo.png"
+        },
+        {
+          "name": "shodan",
+          "imageSrc": "gobust_logo.png"
         }
       ]
     }

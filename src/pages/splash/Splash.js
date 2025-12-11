@@ -1,7 +1,8 @@
+// src/containers/splash/Splash.js
 import React, { Component } from "react";
 import "./Splash.css";
 import { Redirect } from "react-router-dom";
-import LoaderLogo from "../../components/Loader/LoaderLogo.js";
+import LoaderLogo from "../../components/Loader/LoaderLogo";
 
 function AnimatedSplash(props) {
   return (
@@ -25,7 +26,7 @@ class Splash extends Component {
     this.id = setTimeout(() => this.setState({ redirect: true }), 5500);
   }
 
-  componentWillMount() {
+  componentWillUnmount() {
     clearTimeout(this.id);
   }
 
