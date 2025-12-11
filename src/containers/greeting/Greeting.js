@@ -1,7 +1,7 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
+// import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
@@ -30,16 +30,20 @@ export default function Greeting(props) {
               </p>
               <SocialMedia theme={theme} />
               {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+                <Button text="Contact me" href="#contact" />
+                <Button
+                  text="See my resume"
+                  newTab={true}
+                  href={greeting.resumeLink}
+                />
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
             {/* <img
-							alt="saad sitting on table"
-							src={require("../../assets/images/feelingProud.svg")}
-						></img> */}
+              alt="saad sitting on table"
+              src={require("../../assets/images/feelingProud.svg")}
+            ></img> */}
             <FeelingProud theme={theme} />
           </div>
         </div>
