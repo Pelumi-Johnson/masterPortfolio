@@ -61,7 +61,8 @@ class Projects extends Component {
           newTab={true}
           theme={theme}
         />
-        // {/* Publications disabled for now */}
+
+        {/* Publications disabled for now */}
         {/*
         {publications.data.length > 0 ? (
           <div className="basic-projects">
@@ -92,6 +93,7 @@ class Projects extends Component {
           })}
         </div>
         */}
+
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
