@@ -581,7 +581,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I share reflections from my cybersecurity journey, including the labs I’ve completed, the lessons gained from training programs, and clear explanations of the concepts I’m learning.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://www.cyberlyon.blog/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
