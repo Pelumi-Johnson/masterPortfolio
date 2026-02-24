@@ -32,7 +32,7 @@
       "languages": [
         {
           "name": "AWS",
-          "iconifyClass": "logos-aws"
+          "iconifyClass": ""
         },
         {
           "name": "Cain",
@@ -58,7 +58,7 @@
         },
         {
           "name": "Linux",
-          "iconifyClass": "logos-linux-tux"
+          "iconifyClass": ""
         }
       ]
     },
@@ -76,15 +76,15 @@
         },
         {
           "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "iconifyClass": ""
         },
         {
           "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "iconifyClass": ""
         },
         {
           "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "iconifyClass": ""
         }
       ]
     },
@@ -103,28 +103,28 @@
       ]
     },
     {
-      "id": "osint-lab",
-      "name": "Cybersecurity Search Skills & OSINT Lab",
+      "id": "Team-Based Security Case Studies",
+      "name": "Team-Based Security Case Studies",
       "createdAt": "2025-11-24T00:00:00Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "⚙️Open-source intelligence lab focused on safe information gathering, evaluating platforms, and documenting search strategies as a cybersecurity learner.",
+      "url": "https://github.com/Pelumi-Johnson/Collaborative-Security-Case-Studies/tree/main",
+      "description": "Team-based security labs and joint presentations completed with cohort members, emphasizing communication and shared problem-solving.",
       "isFork": false,
       "languages": [
         {
           "name": "VirusTotal",
-          "imageSrc": "virustotal_logo.png"
+          "imageSrc": ""
         },
         {
           "name": "shodan",
-          "imageSrc": "shodan.png"
+          "imageSrc": ""
         },
         {
           "name": "CVE",
-          "imageSrc": "cve_logo.png"
+          "imageSrc": ""
         },
         {
           "name": "shodan",
-          "imageSrc": "gobust_logo.png"
+          "imageSrc": ""
         }
       ]
     }
