@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual rising in the digital world with a heart to learn, to strengthen, and to protect the spaces where people build their lives. Because if we don’t stand up for what matters most, who will?",
   resumeLink:
-    "https://docs.google.com/document/d/1FhgD1PfKlLY5pjqkQlI5FXY9v2hnkpmOpobVlE1yzl0/edit?tab=t.0",
+    "https://drive.google.com/file/d/1SUEnDAhON0qmtobO-YwVt33n1CCHDw6j/view?usp=drive_link",
   portfolio_repository:
     "https://github.com/Pelumi-Johnson/Pelumi-Johnson-Cybersecurity-Portfolio",
   githubProfile:
